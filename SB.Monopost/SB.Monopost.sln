@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics", "Dynamics", "{3DF85E48-B372-4908-9C0B-1FA14CB530AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{4F6BCD98-457C-4B03-9788-6ED331F6CA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.DriverOrder", "Dynamics\Plugins\SB.DriverOrder\SB.DriverOrder.csproj", "{FF66A1FA-53A3-4479-B4E2-840278565177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.Monopost.Workflows", "Dynamics\SB.Monopost.Workflows\SB.Monopost.Workflows.csproj", "{793FE7E2-8B51-4E91-9D67-44172F9EB1B5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SB.Monopost.Shared", "SB.Monopost.Shared\SB.Monopost.Shared.shproj", "{448D091E-B453-431F-BEDC-F13F5075B9BF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SB.Monopost.Shared\SB.Monopost.Shared.projitems*{448d091e-b453-431f-bedc-f13f5075b9bf}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF66A1FA-53A3-4479-B4E2-840278565177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF66A1FA-53A3-4479-B4E2-840278565177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF66A1FA-53A3-4479-B4E2-840278565177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF66A1FA-53A3-4479-B4E2-840278565177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793FE7E2-8B51-4E91-9D67-44172F9EB1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793FE7E2-8B51-4E91-9D67-44172F9EB1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793FE7E2-8B51-4E91-9D67-44172F9EB1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793FE7E2-8B51-4E91-9D67-44172F9EB1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F6BCD98-457C-4B03-9788-6ED331F6CA05} = {3DF85E48-B372-4908-9C0B-1FA14CB530AA}
+		{FF66A1FA-53A3-4479-B4E2-840278565177} = {4F6BCD98-457C-4B03-9788-6ED331F6CA05}
+		{793FE7E2-8B51-4E91-9D67-44172F9EB1B5} = {3DF85E48-B372-4908-9C0B-1FA14CB530AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27E8BE35-47CD-452B-B9BE-ADDABC639119}
+	EndGlobalSection
+EndGlobal
